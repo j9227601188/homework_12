@@ -1,5 +1,5 @@
 #pragma once
-#include "LskPeriodic.h"
+#include "IsKPeriodic.h"
 
 void testInManualMode() {
 	std::cout	<< "\nTo test the lskPeriodic() function, press enter 1 or 0 to EXIT\n";
@@ -15,7 +15,7 @@ void testInManualMode() {
 		size_t userMultiplicity{ 0 };
 		std::cin >> userMultiplicity;
 		std::cout << userMultiplicity << "\n";//del
-		lskPeriodic(userString, userMultiplicity);
+		isKPeriodic(userString, userMultiplicity);
 		std::cout << "to repeat the test, enter 1 or 0 to EXIT\n";
 		std::cin >> of;
 	}
