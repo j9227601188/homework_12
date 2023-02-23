@@ -2,7 +2,7 @@
 //version 1.0 (23/02/2023)
 //Evgeny Volkov 
 #include <iostream>
-#include "LskPeriodic.h"
+#include "IsKPeriodic.h"
 #include "TestScript.h"
 #include "TestInManualMode.h"
 
