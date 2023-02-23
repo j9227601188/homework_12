@@ -2,7 +2,7 @@
 #include <string>
 
 //checking the multiplicity of a string to the number K
-auto lskPeriodic(const std::string& in_string, const int K) {
+auto isKPeriodic(const std::string& in_string, const int K) {
 	//exception
 	if (K <= 0) {
 		std::cout << K << " invalid divisor" << "\n";
